@@ -7,7 +7,7 @@ app.use(cors());
 
 console.log(quotesJSONArray, typeof quotesJSONArray)
 app.get('/', (req, res) => {
-  res.send('Welcome to the Mindfulness Daily Quotes API. Use the specific url endings to access quotes.')
+  res.send('Welcome to the Mindfulness Daily Quotes API. Use the specific url endings to access the quotes.')
 });
 
 app.get('/quotesList',(req, res) =>{
